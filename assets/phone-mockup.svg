@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple phone mockup SVG showing streak counter -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" width="300" height="600">
+  <rect x="10" y="10" rx="34" ry="34" width="280" height="580" fill="#0F1720" stroke="#0b0b0b" />
+  <rect x="28" y="70" width="244" height="420" rx="18" fill="#ffffff" />
+  <g transform="translate(36,90)">
+    <text x="0" y="40" font-family="Poppins, Arial" font-size="28" fill="#121212">14 Days</text>
+    <text x="0" y="76" font-family="Inter, Arial" font-size="18" fill="#00D18C">Deep Work 🔥</text>
+
+    <rect x="0" y="110" width="220" height="44" rx="10" fill="#FF6B00" />
+    <text x="110" y="140" font-family="Poppins, Arial" font-size="16" fill="#fff" text-anchor="middle">Keep the streak</text>
+  </g>
+</svg>

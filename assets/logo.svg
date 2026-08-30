@@ -1,0 +1,17 @@
+<!-- SVG logo: DisciplineOS (simple geometric D with break) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 300 100">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF6B00"/>
+      <stop offset="1" stop-color="#FF6B00"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon: broken D -->
+  <g transform="translate(10,10)">
+    <rect x="0" y="0" width="60" height="80" rx="14" fill="#121212" />
+    <path d="M60 10 A30 30 0 0 1 60 70" stroke="#FF6B00" stroke-width="12" fill="none" stroke-linecap="round" />
+    <!-- break in chain: small gap -->
+    <path d="M60 10 A30 30 0 0 1 60 32" stroke="#FF6B00" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <text x="100" y="62" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="44" fill="#121212">DisciplineOS</text>
+</svg>

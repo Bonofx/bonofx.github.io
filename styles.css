@@ -1,0 +1,54 @@
+/* DisciplineOS — styles.css (No Excuses design) */
+:root{
+  --bg:#F7F7F7;
+  --surface:#ffffff;
+  --charcoal:#121212;
+  --orange:#FF6B00;
+  --mint:#00D18C;
+  --red:#E63946;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;line-height:1.45;background:var(--bg);color:var(--charcoal);margin:0}
+.container{max-width:1100px;margin:0 auto;padding:1.25rem}
+.site-header{background:transparent;padding:.75rem 0}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.5rem}
+.logo{width:40px;height:40px}
+.brand-name{font-weight:700;font-family:Poppins,Arial}
+.nav a{margin-left:1rem;color:var(--charcoal);text-decoration:none}
+.btn{display:inline-block;padding:.6rem 1rem;border-radius:8px;text-decoration:none;font-weight:600}
+.btn-ghost{background:transparent;border:1px solid rgba(0,0,0,.06)}
+.btn-primary{background:var(--orange);color:white}
+.btn-secondary{background:transparent;border:2px solid var(--charcoal);color:var(--charcoal)}
+.hero{background:linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(18,18,18,0.9) 60%);color:white;padding:3rem 0}
+.hero-grid{display:grid;grid-template-columns:1fr 380px;align-items:center;gap:2rem}
+.hero-head{font-family:Poppins,Arial;font-size:2.1rem;margin:0 0 .6rem}
+.hero-sub{opacity:0.9;margin:0 0 1rem}
+.cta-row{display:flex;gap:.75rem;margin-bottom:.75rem}
+.social-proof{opacity:.8}
+.phone-mockup{width:320px;max-width:100%}
+.section-title{font-family:Poppins,Arial;font-size:1.25rem;margin-bottom:.75rem;color:var(--charcoal)}
+.cards .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.card{background:var(--surface);padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.icon{font-size:1.5rem}
+.how-list{list-style:decimal;padding-left:1.25rem}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.feature-card{background:var(--surface);padding:1rem;border-radius:8px}
+.pricing-grid{display:flex;gap:1rem}
+.price-card{flex:1;background:var(--surface);padding:1.25rem;border-radius:8px}
+.price-pro{border:2px solid var(--orange)}
+.final-cta{text-align:center;padding:2rem 0}
+.signup-form{display:flex;gap:.5rem;justify-content:center;max-width:480px;margin:0 auto}
+.signup-form input{flex:1;padding:.6rem;border-radius:8px;border:1px solid #ddd}
+.signup-msg{margin-top:.5rem;color:var(--mint)}
+.site-footer{padding:2rem 0;text-align:center;color:#666}
+/* Responsive */
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .grid-3{grid-template-columns:1fr}
+  .grid-4{grid-template-columns:1fr 1fr}
+}
+@media(max-width:520px){
+  .grid-4{grid-template-columns:1fr}
+}
